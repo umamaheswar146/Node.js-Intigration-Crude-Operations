@@ -29,7 +29,7 @@ exports.list =  function (req, res) {
        
        // res.render('customer/list', { title: "Customers", data: result.rows }); // callinng the list.ejs file 
 
-
+  //console.log('HIIIIIIIIIIIIIIIIIIIII')
 //exports.add = function (req, res) {
    // res.render('customer/add', { title: "Add Customer"  }); // calling the add.ejs file
 //};
