@@ -1,0 +1,12 @@
+const db_operations = require('./db_curd_operations');
+db_operations.list();
+var user1={"id":16, "name":'king maker',"age":'23' };
+var user2={"id":18, "name":'prince',"age":'28' };
+db_operations.add(user1); 
+ db_operations.add(user2);
+db_operations.list();
+var user3 = {"id":16, "name":'Virat', "age":'31'};
+db_operations.update(user3);
+db_operations.delete(17);
+db_operations.list();
+console.log('end....');

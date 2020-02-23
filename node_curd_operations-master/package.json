@@ -1,0 +1,17 @@
+{
+  "name": "node_curd_app",
+  "version": "1.0.0",
+  "description": "postgres_curd_application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "pg": "^7.12.1"
+  }
+}

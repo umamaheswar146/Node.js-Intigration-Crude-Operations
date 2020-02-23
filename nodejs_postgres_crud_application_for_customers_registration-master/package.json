@@ -1,0 +1,43 @@
+{
+  "name": "nodejs-postgresql-crud",
+  "version": "1.0.0",
+  "description": "A Simple Crud Application by Connecting PostgreSQL with NodeJs.",
+  "keywords": [
+    "database",
+    "libpq",
+    "pg-crud",
+    "postgre-crud",
+    "postgres-crud",
+    "postgresql-crud",
+    "rdbms",
+    "crud"
+  ],
+  "homepage": "http://github.com/dannibla/nodejs-postgresql-crud",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dannibla/nodejs-postgresql-crud.git"
+  },
+  "author": "Daniel Abraham <dannibla@outlook.com>",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "path": "^0.12.7",
+    "pg": "^7.8.2"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4.5.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.1",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.1",
+    "@types/express-jwt": "0.0.42",
+    "@types/jsonwebtoken": "^8.3.3"
+  }
+}

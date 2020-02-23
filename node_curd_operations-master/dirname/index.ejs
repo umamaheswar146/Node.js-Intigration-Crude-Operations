@@ -1,0 +1,38 @@
+<html>
+        <head>
+                <style>
+                table {
+                  font-family: arial, sans-serif;
+                  border-collapse: collapse;
+                  width: 100%;
+                }
+                
+                td, th {
+                  border: 1px solid #3f2424;
+                  text-align: left;
+                  padding: 8px;
+                }
+                
+                tr:nth-child(even) {
+                  background-color: #dddddd;
+                }
+                </style>
+                </head>
+
+        <table>
+                <tr>
+                        <td>Student-Id</td>
+                        <td>Student-Name</td>
+                        <td>Student-Roolnumber</td>
+                </tr>
+                
+               <% data.forEach((item)=>{%> 
+                <tr>
+                <td><%=item.id%></td>
+                <td><%=item.name%></td>
+                <td><%=item.roolnumber%></td> 
+            </tr>
+                <%});%> 
+            
+        </table>
+</html>
